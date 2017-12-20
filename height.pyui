@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 34}, {107, 52}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "2D1E05FA-D7A5-48EF-81C5-3D1EC0C9D8F7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "time",
+          "name" : "time_label",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{148, 142}, {135, 52}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "20A569E1-6FA2-40EA-BF35-4B423010CFB5",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{202, 41}, {200, 45}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "yes",
+          "class" : "TextField",
+          "uuid" : "0848D516-22A3-4A12-B8A8-BA28FE7ACF19",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "time_textbox",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{70, 232}, {213, 50}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "5384D823-2A9C-4282-B514-E799FA77F47B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "height_answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
